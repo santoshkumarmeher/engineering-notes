@@ -8,7 +8,7 @@ export const branches = [
 
 export const subjects = {
   CSE: [
-    { id: 1, name: 'Data Structures', code: 'CS201' },
+    { id: 1, name: 'IoT', code: 'CS201' },
     { id: 2, name: 'Algorithms', code: 'CS301' },
     { id: 3, name: 'Database Management', code: 'CS401' },
     { id: 4, name: 'Operating Systems', code: 'CS501' }
@@ -27,21 +27,21 @@ export const notes = {
   CS201: [
     {
       id: 1,
-      title: 'Introduction to Data Structures',
-      teacher: 'Dr. Sharma',
-      college: 'IIT Delhi',
+      title: 'Internet of Things',
+      teacher: 'Mr. M. ROHITH ANANTH RATNAM',
+      college: 'MALLA REDDY INSTITUTE OF TECHNOLOGY AND SCIENCE',
       type: 'pdf',
-      file: '/assets/pdfs/ds_intro.pdf',
-      date: '2024-01-15'
+      file: '/assets/pdfs/IoT Lecture Material.pdf',
+      date: '2025-11-09'
     },
     {
       id: 2,
-      title: 'Arrays and Linked Lists',
-      teacher: 'Prof. Gupta',
-      college: 'NIT Warangal',
-      type: 'ppt',
-      file: '/assets/ppts/arrays_lists.ppt',
-      date: '2024-01-20'
+      title: 'Internet of Things and It\'s Application',
+      teacher: 'Mr.M.Anantha Guptha',
+      college: 'MALLA REDDY INSTITUTE OF TECHNOLOGY AND SCIENCE',
+      type: 'pdf',
+      file: '/assets/pdfs/IoT & Applications Digital Notes.pdf',
+      date: '2025-11-09'
     }
   ]
 };
