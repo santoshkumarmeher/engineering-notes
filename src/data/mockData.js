@@ -1,0 +1,67 @@
+export const branches = [
+  { id: 1, name: 'Computer Science', code: 'CSE' },
+  { id: 2, name: 'Mechanical Engineering', code: 'ME' },
+  { id: 3, name: 'Electrical Engineering', code: 'EE' },
+  { id: 4, name: 'Civil Engineering', code: 'CE' },
+  { id: 5, name: 'Electronics & Communication', code: 'ECE' }
+];
+
+export const subjects = {
+  CSE: [
+    { id: 1, name: 'Data Structures', code: 'CS201' },
+    { id: 2, name: 'Algorithms', code: 'CS301' },
+    { id: 3, name: 'Database Management', code: 'CS401' },
+    { id: 4, name: 'Operating Systems', code: 'CS501' }
+  ],
+  ME: [
+    { id: 1, name: 'Thermodynamics', code: 'ME201' },
+    { id: 2, name: 'Fluid Mechanics', code: 'ME301' }
+  ],
+  EE: [
+    { id: 1, name: 'Circuit Theory', code: 'EE201' },
+    { id: 2, name: 'Power Systems', code: 'EE301' }
+  ]
+};
+
+export const notes = {
+  CS201: [
+    {
+      id: 1,
+      title: 'Introduction to Data Structures',
+      teacher: 'Dr. Sharma',
+      college: 'IIT Delhi',
+      type: 'pdf',
+      file: '/assets/pdfs/ds_intro.pdf',
+      date: '2024-01-15'
+    },
+    {
+      id: 2,
+      title: 'Arrays and Linked Lists',
+      teacher: 'Prof. Gupta',
+      college: 'NIT Warangal',
+      type: 'ppt',
+      file: '/assets/ppts/arrays_lists.ppt',
+      date: '2024-01-20'
+    }
+  ]
+};
+
+export const skills = [
+  {
+    id: 1,
+    name: 'Web Development',
+    category: 'Programming',
+    resources: [
+      { name: 'HTML/CSS Basics', type: 'pdf', file: '/assets/pdfs/web_dev.pdf' },
+      { name: 'JavaScript Fundamentals', type: 'ppt', file: '/assets/ppts/js_basics.ppt' }
+    ]
+  },
+  {
+    id: 2,
+    name: 'Data Science',
+    category: 'Analytics',
+    resources: [
+      { name: 'Python for Data Science', type: 'pdf', file: '/assets/pdfs/python_ds.pdf' }
+    ]
+  }
+];
