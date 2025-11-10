@@ -31,7 +31,7 @@ export const notes = {
       teacher: 'Mr. M. ROHITH ANANTH RATNAM',
       college: 'MALLA REDDY INSTITUTE OF TECHNOLOGY AND SCIENCE',
       type: 'pdf',
-      file: 'https://santoshkumarmeher.github.io/engineering-notes/src/assets/pdfs/IoT Lecture Material.pdf',
+      file: 'https://santoshkumarmeher.github.io/engineering-notes/src/assets/pdfs/IoT_Lecture_Material.pdf',
       date: '2025-11-09'
     },
     {
@@ -40,7 +40,7 @@ export const notes = {
       teacher: 'Mr.M.Anantha Guptha',
       college: 'MALLA REDDY INSTITUTE OF TECHNOLOGY AND SCIENCE',
       type: 'pdf',
-      file: 'https://santoshkumarmeher.github.io/engineering-notes/src/assets/pdfs/IoT & Applications Digital Notes.pdf',
+      file: 'https://santoshkumarmeher.github.io/engineering-notes/src/assets/pdfs/IoT_&_Application_sDigital_Notes.pdf',
       date: '2025-11-09'
     }
   ]
