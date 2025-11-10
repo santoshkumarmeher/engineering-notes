@@ -40,7 +40,7 @@ export const notes = {
       teacher: 'Mr.M.Anantha Guptha',
       college: 'MALLA REDDY INSTITUTE OF TECHNOLOGY AND SCIENCE',
       type: 'pdf',
-      file: '/engineering-notes/src/assets/pdfs/IoT_&_Applications_Digital_Notes.pdf',
+      file: '/engineering-notes/src/assets/pdfs/IoT_and_Applications_Digital_Notes.pdf',
       date: '2025-11-09'
     }
   ]
