@@ -2,15 +2,23 @@ import React from 'react';
 
 const NoteCard = ({ note }) => {
   const handleDownload = () => {
-    // For GitHub Pages, files should be in public folder
+    // Create a temporary anchor element
     const link = document.createElement('a');
     link.href = note.file;
-    link.download = note.title;
+    
+    // Set the download attribute with proper file extension
+    const fileName = `${note.title.replace(/[^a-zA-Z0-9]/g, '_')}.${note.type}`;
+    link.download = fileName;
+    
+    // Append to body, click, and remove
+    document.body.appendChild(link);
     link.click();
+    document.body.removeChild(link);
   };
 
   const handleView = () => {
-    window.open(note.file, '_blank');
+    // Open in new tab for viewing
+    window.open(note.file, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -26,10 +34,10 @@ const NoteCard = ({ note }) => {
       </div>
       <div className="note-actions">
         <button onClick={handleView} className="btn view-btn">
-          View
+          View PDF
         </button>
         <button onClick={handleDownload} className="btn download-btn">
-          Download
+          Download PDF
         </button>
       </div>
     </div>
